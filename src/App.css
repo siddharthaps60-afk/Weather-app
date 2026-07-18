@@ -1,0 +1,90 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+}
+
+.navbar h1 {
+    color: white;
+    font-size: 28px;
+}
+
+.theme-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.search-container{
+    display:flex;
+    justify-content:center;
+    margin-top:40px;
+    gap:10px;
+}
+
+.search-input{
+    width:300px;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    font-size:16px;
+}
+
+.search-btn{
+    padding:12px 20px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+}.weather-card{
+    width:350px;
+    margin:40px auto;
+    padding:30px;
+    background:rgba(255,255,255,0.12);
+    backdrop-filter:blur(12px);
+    border-radius:20px;
+    text-align:center;
+    color:white;
+}
+
+.weather-card img{
+    width:100px;
+}
+
+.weather-details{
+    margin-top:20px;
+    text-align:left;
+}
+
+.weather-details p{
+    margin:10px 0;
+}
+.hourly-forecast {
+  margin: 40px auto;
+  width: 90%;
+  text-align: center;
+}
+
+.hourly-list {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  padding: 10px;
+}
+
+.hour-card {
+  min-width: 120px;
+  padding: 15px;
+  border-radius: 15px;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
+
+.hour-card img {
+  width: 60px;
+}
